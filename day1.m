@@ -7,7 +7,6 @@ while ~feof(fileID)
 end
 fclose(fileID);
 
-
 % Second Half
 fileID = fopen("Input/input1.txt", "r");
 wordMap = containers.Map( ...
