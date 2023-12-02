@@ -53,16 +53,16 @@ void main()
             {
                 string[] hm = strip(color).split();
                 rgb[hm[1]] += to!int(hm[0]);
-                if (gameRgb[hm[1]] < rgb[hm[1]]) gamergb[hm[1]] = rgb[hm[1]];
+                if (gameRgb[hm[1]] < rgb[hm[1]]) gameRgb[hm[1]] = rgb[hm[1]];
             }
         }
         int sum = 1;
-        foreach (key, value; gamergb) sum *= value;
+        foreach (key, value; gameRgb) sum *= value;
         gameSum += sum;
         
     }
     file.close();
 
     writeln("Answer 1: ", sumofindex);
-    writeln("Answer 2?: ",gameSum);
+    writeln("Answer 2: ",gameSum);
 }
