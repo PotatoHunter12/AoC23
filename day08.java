@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class day8 {
+public class day08 {
     public static void main(String[] args) throws IOException {
         String path = "Input/input8.txt";
         BufferedReader rd = new BufferedReader(new FileReader(new File(path)));
