@@ -3,9 +3,7 @@ var input = File.ReadAllLines("Input/input21.txt");
 const long totalSteps = 26501365L;
  
 var sequenceCounts = new List<(int X, int Y)>();
-var startPosition = input.Length / 2;
-var start = (startPosition, startPosition);
-var visited = new HashSet<(int,int)> { start };
+var visited = new HashSet<(int,int)> { (input.Length / 2, input.Length / 2) };
 var steps = 0;
 var res1 = 0;
 double res2 = 0;

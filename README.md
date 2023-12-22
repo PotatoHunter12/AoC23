@@ -9,7 +9,7 @@ Different randomly [generated](https://perchance.org/programming-languge) progra
 - Day 7: Objective C
 + Day 8: Java           
 + Day 9: C++            
-- Day 10: F#
++ Day 10: F#
 - Day 11: C
 - Day 12: JavaScript
 - Day 13: CoffeeScript
